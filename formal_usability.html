@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<!--
+	Dopetrope by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Creme-Betweens</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="no-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+
+					<!-- Logo -->
+						<h1><a href="index.html">Apptitude</a></h1>
+
+					<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li class="current">
+								<a href="#">Process</a>
+								<ul>
+									<li><a href="design_brief.html">Design Brief</a></li>
+									<li><a href="needs_analysis.html">Needs Analysis</a></li>
+									<li><a href="design_development.html">Design Development</a></li>
+									<li><a href="design_refinement.html">Design Refinement</a></li>
+									<li><a href="final_refinement.html">Final Refinement</a></li>
+								</ul>
+							</li>
+							<!--<li><a href="left-sidebar.html">Left Sidebar</a></li>
+							<li><a href="right-sidebar.html">Right Sidebar</a></li>-->
+							<li><a href="about.html">Consent Narrative</a></li>
+						</ul>
+					</nav>
+
+				</section>
+
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+
+						<!-- Content -->
+							<article class="box post">
+								<a href="#" class="image featured"><img src="images/olin_5.jpg" alt="" /></a>
+								<header>
+									<h2>Formal Usability Study</h2>
+									<p>Testing different versions of our interface</p>
+									<h3>Study Plan</h3>
+									<h4>Hypothesis</h4>
+								</header>
+
+                <p>
+                  Users would spend more time studying candidates when there are no match percentages, and as a result, they will be more confident in their decisions. With match percentages, users would tend to select people with the highest percent matches. 
+                </p>
+				<h4>Independent Variable</h4>
+                <p>
+                  Our independent variable is binary with two possibilitties:
+					<ol type="1">
+								<li>Each match is associated with a percentage detailing how similar our matching algorithm thinks two people are. The percentages are listed at the top of each hero card.</li>
+								<li>Instead of having percentages, we will highlight sections of a candidate’s hero card that are similar to the user’s profile</li></ol>
+                </p>
+				<h4>Dependent Variables</h4>
+						<p><ol type="1">
+						<li>The people selected with highlights compared to people selected with percentages.</li>
+						<li>The confidence of picking a particular person.</li>
+						<li>The amount of time spent studying each candidate.</li></ol></p>
+				<h4>Expected Observation</h4>
+					<p>If our hypothesis is correct, we expect there to be a disparity between the people selected for a match with percentages vs. the people selected based on similarity highlights. When given match percentages, users would want to match with the people with the highest percentages. On the other hand, when given similarity highlights and no percentages, users would spend more time picking whom to match with. By spending more time studying the matching options, they would be more confident in their choices.</p>
+				<h4>Logistics</h4>
+					<p>We are hoping to talk to around 5 users. We are focusing on empty-nester parents because our wireframes are targeted to that user group. Before starting the usability study, we will brief users on what their profiles and hero cards look like, so they would be able to confirm the match percentages and similarity highlights if they wish to do so. Every single user would undergo both parts of the usability test to make it easier for comparisons. First, the user would get a series of hero cards with match percentages and will be asked to look through the candidates and select someone they would be interested in mentoring. For the second part of the test,  the user would get another series of hero cards that are very similar to the previous ones but with different names and some minor re-shuffling. Instead of having match percentages, similarities in the hero cards will be highlighted. The same task of selecting someone to connect with will be given. The amount of time it takes the user to select someone will be measured and recorded. After selecting someone, the user will be asked the following questions:
+					<li>Why did you choose person X?</li>
+					<li>What sorts of characteristics were you looking for when selecting someone?</li>
+					<li>On a scale from 1 to 10, how confident are you feeling about your choice? (1 being not sure at all and 10 being very sure)</li>
+						<br>
+					These questions will help us gain a better understanding of our users’ decision-making process and provide insights into our hypothesis. Our ultimate goal from this A/B test is to determine whether we should implement match percentages or similarity highlighting in our matching process. We want to find a balance between the time spent on picking someone to match with and the user confidence in making that choice. </p>
+                <h3>Results</h3>
+					<h4>General Overview</h4>
+					<p>We interviewed 3 people for our formal usability study. All three users picked the same students to connect with. They all responded much better to scenario 2 with similarity highlighting compared to scenario 1 with match percentages. Everyone tended to spend more time studying the candidates with similarity highlighting. Users made their decisions by considering whether they could significantly help with some aspects of a student’s college application process (e.g. picking engineering schools).</p>
+					<h4>Interpretation</h4>
+					<p>Based on what we measured in our usability studies, similarity highlighting tends to be received better compared to match percentages. 2 out of the 3 users did not look at the percentages at all because they were not sure what they represented. In contrast, everyone knew the purpose of the highlights and used them to quickly scan through the hero cards and profile pages. For both scenarios, all users were fairly confident in their choices, which we did not originally expect. In fact, one user even felt less confident in his decision after seeing the similarity highlighting because he was not sure whether to value similar hobbies, which the highlighting emphasized, over other profile characteristics. With these new results in mind, we would update our hypothesis from:
+						<br><br>
+					<q><i>Users spend more time studying candidates when there are no match percentages, and as a result, they are more confident in their decisions. With match percentages, users tend to select people with the highest percent matches, in effect making the interaction less personal.</i></q> 
+						<br> 
+						<center>to</center> 
+						<br>
+					<q><i>Users spend more time studying candidates with similarity highlighting, but would feel more confident in their decisions. Also, users ignore or do not highly value match percentages when choosing who to connect with.</i></q></p>
+
+                <h4>What's Next?</h4>
+                <p>
+                  As a result of the Usability Study, we believe that the best next step is to move forward with the highlighted cards rather than the percentage matches. All of our users that we interviewed responded best to the highlighted matching system.  When asked, one of our users even stated that “the highlight makes the connection more meaningful and transparent. I understand why I am matching with this person rather than an ambiguous, meaningless percentage. Furthermore, the percentage makes the interaction feel a lot more pressured and business like”. We agree that we want to differentiate ourselves from college counselors and tutors by making this interaction much more light hearted and stress free.  Implementing this move in our next steps will overall improve the meaning and mission of the application, aiming for a deeper user connection.
+                </p>
+							</article>
+
+					</div>
+				</section>
+		</div>
+
+		<section id="footer">
+			<div id="copyright">
+				<ul class="links">
+					<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

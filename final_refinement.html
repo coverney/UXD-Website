@@ -49,104 +49,146 @@
 
 						<!-- Content -->
 							<article class="box post">
-								<a class="image featured"><img src="images/olin_5.jpg" alt="" /></a>
+								<a class="image featured"><img src="images/FinalPrototype/MatchingHighlight.PNG" alt="" /></a>
 								<header>
-									<h2>Consent Narrative</h2>
-									<p>Some additional information on how we interact with our users and interviewees</p>
+									<h1>Design Refinement</h1>
+									<p>A deeper look into our final prototype and reasons behind each design decision&nbsp;</p>
 								</header>
 								<section>
 									<header>
-										<h3>Purpose</h3>
+										<h2>What is Apptitude?</h2>
 									</header>
 									<p>
-										We are students at Olin College of Engineering taking the
-										course User Experience Design. The goal of this class is to
-										understand and apply aspects of human interaction to the design
-										of user-friendly software applications. By the end of the course,
-										we hope to make a positive impact on low-income families preparing
-										their children for college and parents whose children have already
-										gone through the college application process.
+										Apptitude is a web-based app is focused on connecting empty-nester parents to families applying to colleges for the first time. Specifically, it is designed with the goal of creating long-lasting, friendly, meaningful connections that are not affected by the business-like attitude of many college counselor - student relationships.
+									</p>
+									<p>
+										Our users create profiles and connect with empty nesters or applicants. From there, empty-nester parents can give college application advice through private messages, forums, blog posts, notifications, and essay editing platforms. We want to create a friendly environment where our users can establish new connections centered around the college application process. Even after the application is completed, connected users are encouraged to keep each other updated on college admission results. In this phase, we focused on the process of connecting applicants to empty-nester parents.</p>
+									<p> To view this prototype, <a href="https://xd.adobe.com/view/4da53631-068f-4f6f-7f0f-b0806571ed27-3b94/"> click here</a> </p>
+								</section>
+								<section>
+									<header>
+										<h3>Users and Goals</h3>
+									</header>
+									<p>
+									Our project strives to connect the following two user groups: parents with children who left for college (i.e. empty nesters), and families that are beginning to learn about the application process. We believe that empty nesters have the potential to serve as an invaluable source/ guide to new college-applicants who do not already have access to or knowledge of college application resources. From what are the best SAT prep books/tutors, to how to apply for financial aid, to the benefits of ED versus EA- the empty nesters of Apptitude have experienced it and are excited to share the knowledge. A side benefit is that this also provides a hobby to newly empty-nester parents that are adjusting to life without their children at home.</p>
+								</section>
+								<section>
+									<header>
+										<h2>Features</h2>
+									</header>
+									<h3>Matching</h3>
+									<p>One of the key features of the app is the “matching” experience where users connect with other users to help each other in the college application process.  We decided to focus explicitly on the point of view from the empty nester/ advisor as we believe that this was more of a challenge.  After the empty nester logs in, they are presented with hero cards of potential students they can connect with. The card depicts highlights that show why they have been matched with that specific user. This design decision stems directly from the results of our Formal Usability Study.</p>
+									<center><img src="images/FinalPrototype/Samuelmatch.PNG" alt=""/></center>
+									<p>To learn more about the user in the card, the empty nester can click on the card to show an exploded version along with more details and a message from the user. If the empty nester decides that they do want to go ahead and connect further with the user, they can click to view the message to begin a conversation. We consciously left out the option to immediately connect with the user because we want both sides to be fully comfortable and ready to connect as to not waste valuable time.</p>
+									<center><img src="images/FinalPrototype/ViewMessage.PNG" alt=""></center>
+									<p>We wanted students to initiate the matching process because it evens out the power dynamic between mentors and mentees and shows that they are dedicated to the process and are willing to reach out for help. Empty nesters receiving personalized messages from dedicated students would make them feel more appreciated and motivated to connect with and help students. </p>
+									<h3>Messaging</h3>
+									<p>Since an empty-nester parent can only help 3 applicants, we created a messaging feature that encourages some back-and-forth before a connection needs to be established. Applying students send a message to empty nesters that they would like to connect with, and empty nester would be able to choose to view messages of students they are interested in. The message preview allows empty nester to get a first impression of an applicant instead of having to manually click every message, which makes the connections less meaningful. Once they click the “View Message” button, they are directed towards the messaging page where they can reply to the applicant’s message and initiate a conversation.</p>
+									<figure>
+  										<img src="images/FinalPrototype/SamuelMessaging.PNG" alt="">
+									  <figcaption><center>The messaging page after clicking “View Message”</center></figcaption>
+									</figure>
+									<p>Once either the empty nester or the applicant made a decision on whether to establish a connection or not, they can click on the “Yes” or “No” buttons on the bottom of the messaging thread. If someone clicks “Yes”, the other user gets notified and is asked whether to accept the connection request. If anyone clicks “No”, the message thread is deleted from both users’ histories. (Of course, the user who did not hit “No” gets a notification explaining what happened.)</p>
+									<figure>
+  										<center><img src="images/reminder.png" alt=""></center>
+									  <figcaption><center>Dialog Box that reminds users that they should be making connections</center></figcaption>
+									</figure>
+									<p>Based on user feedback, we decided to add an additional feature, which encourages users to make a decision on whether to connect with someone after sending three back-and-forth messages. A dialog box pops up asking whether a user wants to connect with the person they are messaging. For the first reminder, there is the option to postpone the decision, but after three more back-and-forth messages, the user can only decide between “Yes” and “No”. We created this feature after striving to find a balance between letting users make careful decisions of who to connect with and also getting users to start building connections early on, so they could actually help each other with the college application process. In the end, we want to ensure that our users create lasting and meaningful connections, which requires them to commit to connecting with people.</p>
+									<figure>
+  										<center><img src="images/FinalPrototype/PubingMessaging.PNG" alt=""></center>
+									  <figcaption><center>Messaging thread after accepting a connection request </center></figcaption>
+									</figure>
+								</section>
+								<section>
+									<h2>Design Decisions</h2>
+									<p>
+										During the course of our project, we made many conscious design decisions to cater to both our users and the overarching goals of Apptitude. 
+									</p>
+									<p>
+										Regarding the overall aesthetic design of Apptitude, we decided to keep with a minimalistic and icon-heavy theme. Our intended student users are stressed about the college application process and therefore any extra features that distracted or added more to their cognitive load were removed. The icons also helped to remove text that would have otherwise cluttered the webpage and again increased users’ cognitive load. However, as the older half of our users will not be as familiar with technology, we heavily relied on familiar shapes to signify meanings, such as the home icon or settings icon. In this way, we could satisfy both the stress-free and intuitive design requirements.</p>
+									<p>
+										The color scheme was also designed to improve the user experience by clearly signifying interactable objects in a non-intrusive manner. Dark purple is used to draw the eye to interactable objects such as buttons while non-interactable objects are greyed out to discourage user attention. As for the color choice, purple is not a color typically associated with warnings or action items. By removing this background information, we allow our users to focus on their desired interaction, namely forming connections, without undue stress. This also helps to differentiate Apptitude from other sites that are used by college counselors or similar resources, whose color schemes tend to focus on red or blue.</p>
+									<p>
+										A lot of our decisions were made with the goal of creating personal connections when deciding what information the profile should contain. We put emphasis on individuality by including hobby selection and a short written bio, among other information. We also included a general location option to help users match by location if they wanted to meet in person. There are some concerns of safety, especially because half of our users are minors. Therefore, we only included general area instead of specific address and hide the location from others.
+									</p>
+									<p>
+										While testing with users, there was a distinct difference in the information empty nesters and students want to view. Empty nesters are concerned with the help the students needed, but mostly focus on the personal information such as hobbies. However, students are much more focused on empty nesters’ specialties and therefore prioritize different aspects of the profile. We rectified this discrepancy by including different information on empty nester and student cards, where individualism was emphasized on the students’ cards and skill sets on the empty nesters’ cards. However, after narrowing the scope of the project, we focused mainly on the information relevant to empty nesters: hobbies, top schools, and the initial message.
+									</p>
+									<p>
+										There are other design decisions we made such as the hero cards and navigation bar, but these were added after usability studies. They will be discussed in the following section.</p>
+								</section>
+								<section>
+									<header>
+										<h3>Formal Usabilty Study Results</h3>
+									</header>
+									<p>
+										 The key change and most important decision we made in this final phase was to use a highlight based matching experience rather than percentage-based. From the results of our formal usability study, we learned that our users respond stronger and better to highlighting in the hero cards to show the overlapping similarities and interests. This is in lieu of using percentages to portray with the hero card they match best with. Therefore, we implemented this to our final design and believe is resonates with our users’ values significantly better and creates a more welcoming and warm experience. 
 									</p>
 								</section>
 								<section>
 									<header>
-										<h3>Description</h3>
+										<h2>Response to Heuristic Evalution Feedback</h2>
 									</header>
 									<p>
-										Our goal is to investigate the way families tackle the college
-										application process. We would like to observe how you use
-										current college application resources and ask questions to
-										pinpoint ways to improve the experience. We are also interested
-										to know what sort of features you would like to see in college
-										preparation applications. Everything during the course of the
-										interview is optional, and you can end it at any time.
+										After the Design Refinement Phase, one of the main feedback that we received from our Heuristic Evaluation, was to improve the overall navigation and usability of the app as a whole. Since then, we have added the following:
+										<li>A login page so that users understand that their information is their own, private and secure</li>
+										<li>A navigation bar and back button that enables users to easily transition among menus, screens, and flows in the app</li>
+										<li>Notification icons that appear when someone has a new match</li>
+										<li>Emphasis on the fact that users have a limited number of connections, which now encourages users to take the messaging aspect more seriously</li>
+										<li>Inspiration from established web-pages so that our users are more familiar with the interface and usability</li>
+										<li>The overall integration of all the wireframes so that the flow is more obvious</li>
+									</p>
+									<p>These design decisions were made specifically in order to improve our heuristic evaluation. Heuristics that we focused on were Visibility of System Status, Flexibility and Efficiency of Use, Recognition Rather Than Recall, and User Control and Freedom.</p>
+									<figure>
+  										<center><img src="images/FinalPrototype/LoginPage.PNG" alt=""></center>
+									  <figcaption><center>Login Page</center></figcaption>
+									</figure>
+									<figure>
+  										<center><img src="images/FinalPrototype/HomeFinal.PNG" alt=""></center>
+									  <figcaption><center>The home page, which emphasizes that users only have 3 connections</center></figcaption>
+									</figure>
+									<figure>
+  										<center><img src="images/FinalPrototype/ProfileFinal.PNG" alt=""></center>
+									  <figcaption><center>User’s profile page with a navigation bar</center></figcaption>
+									</figure>
+								</section>
+								<section>
+									<header>
+										<h2>Shortcoming and Further Work</h2>
+									</header>
+									<p>
+										Our shortcomings include:
+										<li>Not focusing as much time on the college applicant experience. Our entire final prototype is in the perspective of Simone, an empty-nester. With more time, we would have liked to create a matching set of wireframes from the perspective of one of the students.</li>
+										<li>Stopping development on the onboarding process after the design refinement phase. We decided to focus on the matching process and did not include the onboarding wireframes in our final prototype. </li>
+										<li>Not creating prototypes of other areas of our application, such as giving feedback on essays. Currently, users would have to coordinate those features on their own.</li>
+									</p>
+									<p>
+										In the future, we would like to:
+										<li>Create another set of wireframes from the perspective of a college applicant</li>
+										<li>Update and add in the onboarding wireframes</li>
+										<li>Implement other features that we brainstormed during the design development phase (e.g. essay sharing and calendars).</li>
 									</p>
 								</section>
 								<section>
 									<header>
-										<h3>Techniques That May Be Used Upon Your Approval</h3>
+										<h3>∑ Individual Efforts &lt; Team Results</h3>
 									</header>
+									<h4>Shy</h4>
 									<p>
-										We want to optimize the insights learned through our
-										conversations and observations, so in order to track these,
-										we will utilize numerous techniques including note taking,
-										photography, and audio recording. With privacy at the forefront
-										of our minds, we will ensure that you are comfortable with
-										any notes or documentation recorded at all times.
+										In this phase, I focused on working on the connections between the different pages of our wireframe while also doing the Formal Usability Study. I was also tasked with also updating and designing the different pages of our website.
 									</p>
-								</section>
-								<section>
-									<header>
-										<h3>Confidentiality</h3>
-									</header>
+									<h4>Siena</h4>
 									<p>
-										Your name and contact information will remain strictly
-										between our team and the teaching staff. We will use pseudonyms
-										to maintain anonymity and omit any possible sensitive information
-										from our reports and presentations. If at any time you wish to
-										stop participating in our project, we will withdraw all of your
-										information from our user data. We will also accommodate any
-										additional requests or concerns you may have.
+										In this phase, I focused on wireframe improvement and the implementation of usability test feedback.
 									</p>
-								</section>
-								<section>
-									<header>
-										<h3>Time Commitment</h3>
-									</header>
+									<h4>Cassandra</h4>
 									<p>
-										This course lasts one semester (4 months) and we hope to meet
-										with you a few times over the course of the project.
-										Interviews will last about 30-45 minutes. We understand that
-										you have other time commitments and will work around your
-										schedule to the best of our ability.
+										In this phase, I created some of the matching wireframes, especially those needed for the formal usability study. I also conducted a formal usability study on 2 users. Additionally, I was in charge of finalizing the prototype.
 									</p>
-								</section>
-								<section>
-									<header>
-										<h3>Compensation</h3>
-									</header>
+									<h4>Sabrina</h4>
 									<p>
-										There will not be any monetary compensation for your time,
-										but your feedback and discussions will be essential to our
-										own learning and project goals. Our hope is to create a
-										mutually beneficial relationship and learning experience.
+										In this phase, I focused on conducting the Formal Usability Study, and presenting the results. I also contributed to the final design and overall aesthetic of the application through the login page and the home website screen. 
 									</p>
-								</section>
-								<section>
-									<header>
-										<h3>Contact Information</h3>
-									</header>
-									<h4>Instructor</h4>
-									<ul>
-										<li>Amon Millner: Amon.Millner@olin.edu and 781-252-2527</li>
-									</ul>
-									<h4>Students</h4>
-									<ul>
-										<li>Shy Russell: shy@olin.edu </li>
-										<li>Siena Okuna: sokuno@olin.edu </li>
-										<li>Cassandra Overney: coverney@olin.edu</li>
-										<li>Sabrina Tamames: stamames@olin.edu</li>
-									</ul>
 								</section>
 							</article>
 
